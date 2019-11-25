@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/218511178.svg)](https://zenodo.org/badge/latestdoi/218511178)
 # LikeStarter
 [LikeStarter: a Smart-contract basedSocial DAO for Crowdfunding](https://ieeexplore.ieee.org/document/8845133)
 
