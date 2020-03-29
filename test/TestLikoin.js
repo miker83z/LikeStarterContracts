@@ -6,8 +6,8 @@ contract('Likoin', accounts => {
   var bob = accounts[2];
   var assignee = accounts[3];
 
-  it("should mint accounts[2]",  async () => {
-  	const token = await Likoin.deployed();
+  it("should mint accounts[2]", async () => {
+    const token = await Likoin.deployed();
     response = await token.mint.call(bob, 300, { from: owner });
     assert.equal(response, true, "No minted");
   });

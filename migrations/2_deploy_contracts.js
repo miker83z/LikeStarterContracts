@@ -4,9 +4,9 @@ const Crowdsale = artifacts.require('./Crowdsale.sol');
 const Voting = artifacts.require('./Voting.sol');
 const ArtifactsManager = artifacts.require('./ArtifactsManager.sol');
 
-module.exports = function(deployer, network, accounts) {
-    const rate = new web3.BigNumber(1000);
-    const conversionRate = new web3.BigNumber(100);
+module.exports = function (deployer, network, accounts) {
+    const rate = new web3.utils.BN(1000);
+    const conversionRate = new web3.utils.BN(100);
     const assignee = accounts[3];
 
     return deployer
